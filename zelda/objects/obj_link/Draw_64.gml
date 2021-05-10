@@ -10,3 +10,7 @@ draw_sprite(spr_heart,1,90*2,80*2)
 if life>=3{
 draw_sprite(spr_heart,1,90*3,80*3)	
 }
+
+if comkey==true{
+draw_sprite(spr_keyStatic,1,1700,100)
+}

@@ -8,3 +8,4 @@ stado="vivo"
 life=3
 ptomardano=true
 tomandodando="nada"
+comkey=false

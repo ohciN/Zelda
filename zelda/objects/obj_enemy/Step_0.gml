@@ -29,7 +29,7 @@ escolher1= escolherAlldc
 
 
 
-	#region movimentação
+#region movimentação
 #region Se nn tiver encostando encostando = true
 
 		#region lados

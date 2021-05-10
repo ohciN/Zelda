@@ -73,6 +73,8 @@ if keyboard_check(vk_nokey) and atirar{
 
 #endregion
 
+
+
 #region ataque
 if instance_exists(obj_boomerang){
 atirar=noone	
@@ -120,6 +122,9 @@ if atirar and instance_number(obj_boomerang)<1{
 	}
 
 #endregion
+
+
+
 #region morrendo
 if place_meeting(x,y,obj_enemy) and ptomardano==true{
 	life--;

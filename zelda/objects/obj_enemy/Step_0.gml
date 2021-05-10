@@ -12,10 +12,10 @@ var escolherCimdc = choose("direita","esquerda","baixo")
 
 #region cantos
 //cantos
-var escolherInfdirdc= choose ("esquerda", "cima")
-var escolherInfesqdc= choose ("direita", "cima")
-var escolherSupesqdc= choose ("baixo","direita")
-var escolherSupdirdc= choose ("baixo","esquerda")
+ escolherInfdirdc= choose ("esquerda", "cima")
+ escolherInfesqdc= choose ("direita", "cima")
+ escolherSupesqdc= choose ("baixo","direita")
+ escolherSupdirdc= choose ("baixo","esquerda")
 #endregion
 
 

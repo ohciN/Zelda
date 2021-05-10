@@ -1,6 +1,8 @@
 {
   "resources": [
+    {"id":{"name":"spr_keyops","path":"sprites/spr_keyops/spr_keyops.yy",},"order":14,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":3,},
+    {"id":{"name":"Sprite14","path":"sprites/Sprite14/Sprite14.yy",},"order":13,},
     {"id":{"name":"obj_key","path":"objects/obj_key/obj_key.yy",},"order":4,},
     {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},"order":12,},
     {"id":{"name":"spr_gateOpenOk","path":"sprites/spr_gateOpenOk/spr_gateOpenOk.yy",},"order":11,},

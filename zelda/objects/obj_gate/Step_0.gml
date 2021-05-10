@@ -8,10 +8,11 @@ var abertspr = spr_gateOpenOk
 
 if aberto==true{
 sprite_index= abrindo
+obj_link.comkey=false
+	if sprite_index== abrindo and image_index==12{
 
-	
-}
- if sprite_index== abrindo and image_index==12{
-sprite_index= abertspr
 image_speed=0
+
 }
+}
+ 

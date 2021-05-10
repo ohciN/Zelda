@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "spr_gate_blocked",
-    "path": "sprites/spr_gate_blocked/spr_gate_blocked.yy",
+    "name": "Sprite13",
+    "path": "sprites/Sprite13/Sprite13.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -22,7 +22,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_gate",
+  "name": "obj_opengate",
   "tags": [],
   "resourceType": "GMObject",
 }

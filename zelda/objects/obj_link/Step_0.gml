@@ -41,26 +41,26 @@ if nenhumatecla{
 }
 
 
-if direita and !place_meeting(x+spd,y,obj_colision){
+if direita and !place_meeting(x+spd,y,obj_colision) and !place_meeting(x+spd,y,obj_gate){
 	x+=spd
 
 }
 
 
-if esquerda and !place_meeting(x-spd,y,obj_colision){
+if esquerda and !place_meeting(x-spd,y,obj_colision) and !place_meeting(x-spd,y,obj_gate){
 
 	x-=spd
 }
 
 
-if cima and !place_meeting(x,y-spd,obj_colision){
+if cima and !place_meeting(x,y-spd,obj_colision) and !place_meeting(x,y-spd,obj_gate){
 
 	y-=spd
 }
 
 
 
-if baixo and !place_meeting(x,y+spd,obj_colision){
+if baixo and !place_meeting(x,y+spd,obj_colision) and !place_meeting(x,y+spd,obj_gate){
 
 	y+=spd
 }
@@ -137,7 +137,7 @@ if place_meeting(x,y,obj_enemy) and ptomardano==true{
 if life <=0{
 	stado="morto"
 }
-
+/*
 if tomandodando=="tomoudano"{
 sprite_index=spr_link_demaged
 
@@ -168,6 +168,7 @@ tomandodando="nada"
 }
 
 }
+*/
 
 if stado == "morto"{
 instance_destroy()	

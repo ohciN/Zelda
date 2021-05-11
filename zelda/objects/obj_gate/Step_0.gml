@@ -15,5 +15,3 @@ image_speed=0
 
 }
 }
-show_debug_message(life)
- 

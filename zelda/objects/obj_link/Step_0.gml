@@ -84,7 +84,7 @@ atirar=noone
 }
 
 if direitaatr and atirar{
-	x+=spd
+	//x+=spd
 	drcboomerang="drcdireita"
 }
 

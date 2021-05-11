@@ -20,8 +20,10 @@
     {"id":{"name":"spr_link_lowlife","path":"sprites/spr_link_lowlife/spr_link_lowlife.yy",},"order":6,},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":2,},
     {"id":{"name":"spr_heart","path":"sprites/spr_heart/spr_heart.yy",},"order":4,},
+    {"id":{"name":"obj_colision_enemy","path":"objects/obj_colision_enemy/obj_colision_enemy.yy",},"order":7,},
     {"id":{"name":"obj_gate","path":"objects/obj_gate/obj_gate.yy",},"order":5,},
     {"id":{"name":"obj_opengate","path":"objects/obj_opengate/obj_opengate.yy",},"order":6,},
+    {"id":{"name":"spr_colision_enemy","path":"sprites/spr_colision_enemy/spr_colision_enemy.yy",},"order":15,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

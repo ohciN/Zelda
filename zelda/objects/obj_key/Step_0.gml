@@ -3,7 +3,7 @@
 depth=1000
 image_xscale=3
 image_yscale=3
-if !instance_exists(obj_enemy){
+if !instance_exists(obj_enemy) and !instance_exists(verificator_enemy){
 	usarkey=true
 
 

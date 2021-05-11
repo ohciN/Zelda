@@ -29,7 +29,7 @@ else if obj_link.drcboomerang=="drcdireita" and voltando==false{
 x+=spdboomerang
 }
 
-if place_meeting(x,y,obj_colision) or place_meeting(x,y,obj_gate){
+if place_meeting(x,y,obj_colision) or place_meeting(x,y,obj_gate) or place_meeting(x,y,colisionboomerang){
 voltando=true	
 }
 

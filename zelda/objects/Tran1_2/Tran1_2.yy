@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite13",
-    "path": "sprites/Sprite13/Sprite13.yy",
+    "name": "Sprite19",
+    "path": "sprites/Sprite19/Sprite19.yy",
   },
   "solid": false,
   "visible": false,
@@ -21,16 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_link","path":"objects/obj_link/obj_link.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Colision",
-    "path": "folders/Objects/Colision.yy",
+    "name": "Transitions",
+    "path": "folders/Objects/Transitions.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_opengate",
+  "name": "Tran1_2",
   "tags": [],
   "resourceType": "GMObject",
 }

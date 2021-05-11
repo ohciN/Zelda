@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Colision",
+    "path": "folders/Objects/Colision.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_colision_enemy",

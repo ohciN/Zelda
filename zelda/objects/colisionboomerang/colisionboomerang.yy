@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite13",
-    "path": "sprites/Sprite13/Sprite13.yy",
+    "name": "Sprite17",
+    "path": "sprites/Sprite17/Sprite17.yy",
   },
   "solid": false,
   "visible": false,
@@ -20,9 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -30,7 +28,7 @@
     "path": "folders/Objects/Colision.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_opengate",
+  "name": "colisionboomerang",
   "tags": [],
   "resourceType": "GMObject",
 }

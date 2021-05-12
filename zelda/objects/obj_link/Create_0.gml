@@ -9,3 +9,5 @@ life=3
 ptomardano=true
 tomandodando="nada"
 comkey=false
+pandar=true
+andando=false

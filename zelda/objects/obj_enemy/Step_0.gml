@@ -51,18 +51,18 @@ if !place_meeting(x+spdenemyone,y,obj_colision_enemy){
 			
 		}
 		
-		if !place_meeting(x,y+spdenemyone,obj_colision_enemy){
+		if !place_meeting(x,y+spdenemyone,obj_colision_enemy ){
 			
 			encostandobai=true
 		}
 		#endregion
 		#region Cantos
-		if !place_meeting(x,y+spdenemyone,obj_colision_enemy) and !place_meeting(x+spdenemyone,y,obj_colision_enemy){
+		if !place_meeting(x,y+spdenemyone,obj_colision_enemy ) and !place_meeting(x+spdenemyone,y,obj_colision_enemy){
 			
 			baidir=true
 		}
 		
-		if !place_meeting(x,y-spdenemyone,obj_colision_enemy) and !place_meeting(x+spdenemyone,y,obj_colision_enemy){
+		if !place_meeting(x,y-spdenemyone,obj_colision_enemy) and !place_meeting(x+spdenemyone,y,obj_colision_enemy ){
 			
 			cimadir=true
 		}
@@ -72,7 +72,7 @@ if !place_meeting(x+spdenemyone,y,obj_colision_enemy){
 			baiesq=true
 		}
 		
-		if !place_meeting(x,y-spdenemyone,obj_colision_enemy) and !place_meeting(x-spdenemyone,y,obj_colision_enemy){
+		if !place_meeting(x,y-spdenemyone,obj_colision_enemy) and !place_meeting(x-spdenemyone,y,obj_colision_enemy ){
 			
 			cimaesq=true
 		}
@@ -118,19 +118,19 @@ if place_meeting(x+spdenemyone,y,obj_colision_enemy) and encostandodir==true{
 			cimaesq=false
 		}
 		
-		if place_meeting(x,y+spdenemyone,obj_colision_enemy) and place_meeting(x-spdenemyone,y,obj_colision_enemy) and baiesq==true{
+		if place_meeting(x,y+spdenemyone,obj_colision_enemy ) and place_meeting(x-spdenemyone,y,obj_colision_enemy) and baiesq==true{
 			escolher1=escolherInfesqdc
 			escolhendo=true
 			baiesq=false
 		}
 		
-		if place_meeting(x,y+spdenemyone,obj_colision_enemy) and place_meeting(x+spdenemyone,y,obj_colision_enemy) and baidir==true{
+		if place_meeting(x,y+spdenemyone,obj_colision_enemy ) and place_meeting(x+spdenemyone,y,obj_colision_enemy) and baidir==true{
 			escolher1=escolherInfdirdc
 			escolhendo=true
 			baidir=false
 		}
 		
-		if place_meeting(x,y-spdenemyone,obj_colision_enemy) and place_meeting(x+spdenemyone,y,obj_colision_enemy) and cimadir==true{
+		if place_meeting(x,y-spdenemyone,obj_colision_enemy ) and place_meeting(x+spdenemyone,y,obj_colision_enemy) and cimadir==true{
 			escolher1=escolherSupdirdc
 			escolhendo=true
 			cimadir=false

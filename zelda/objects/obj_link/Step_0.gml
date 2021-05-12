@@ -36,32 +36,39 @@ atirar= keyboard_check_pressed(ord("E"))
 //se apertar teclas
 
 
+
+if andando==true{
+sprite_index=spr_link	
+}else{
+sprite_index=spr_link_static
+}
+
 if nenhumatecla{
-	
+	andando=false
 }
 
 
-if direita and !place_meeting(x+spd,y,obj_colision) and !place_meeting(x+spd,y,obj_gate){
+if direita and !place_meeting(x+spd,y,obj_colision) and !place_meeting(x+spd,y,obj_gate) and pandar==true{
 	x+=spd
-
+andando=true
 }
 
 
-if esquerda and !place_meeting(x-spd,y,obj_colision) and !place_meeting(x-spd,y,obj_gate){
-
+if esquerda and !place_meeting(x-spd,y,obj_colision) and !place_meeting(x-spd,y,obj_gate) and pandar==true{
+andando=true
 	x-=spd
 }
 
 
-if cima and !place_meeting(x,y-spd,obj_colision) and !place_meeting(x,y-spd,obj_gate){
-
+if cima and !place_meeting(x,y-spd,obj_colision) and !place_meeting(x,y-spd,obj_gate) and pandar==true{
+andando=true
 	y-=spd
 }
 
 
 
-if baixo and !place_meeting(x,y+spd,obj_colision) and !place_meeting(x,y+spd,obj_gate){
-
+if baixo and !place_meeting(x,y+spd,obj_colision) and !place_meeting(x,y+spd,obj_gate) and pandar==true{
+andando=true
 	y+=spd
 }
 if keyboard_check(vk_nokey) and atirar{

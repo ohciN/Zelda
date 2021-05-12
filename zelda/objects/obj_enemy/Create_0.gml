@@ -13,3 +13,5 @@ cimaesq=true
 baiesq=true
 baidir=true
 cimadir=true
+image_yscale=4
+image_xscale=4

@@ -6,6 +6,8 @@ image_yscale=3
 
 
 
+
+
 if voltando==true{
 mp_potential_step(obj_link.x,obj_link.y,spdboomerang,false)	
 }
@@ -31,6 +33,7 @@ x+=spdboomerang
 
 if place_meeting(x,y,obj_colision) or place_meeting(x,y,obj_gate) or place_meeting(x,y,colisionboomerang){
 voltando=true	
+
 }
 
 

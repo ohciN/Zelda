@@ -122,9 +122,9 @@ if keyboard_check(vk_nokey) and atirar{
 
 if atirar and instance_number(obj_boomerang)<1{
 	instance_create_depth(x,y,0,obj_boomerang)
-
+	 
 	if obj_boomerang.voltando==false{
-	alarm[0]=120
+	alarm[0]=30
 	}
 	}
 

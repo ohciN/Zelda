@@ -10,6 +10,8 @@
     {"id":{"name":"Sprite14","path":"sprites/Sprite14/Sprite14.yy",},"order":13,},
     {"id":{"name":"Tran2_3","path":"objects/Tran2_3/Tran2_3.yy",},"order":2,},
     {"id":{"name":"Tran4_2","path":"objects/Tran4_2/Tran4_2.yy",},"order":5,},
+    {"id":{"name":"spr_destroy_enemy","path":"sprites/spr_destroy_enemy/spr_destroy_enemy.yy",},"order":21,},
+    {"id":{"name":"obj_DestroyEnemy","path":"objects/obj_DestroyEnemy/obj_DestroyEnemy.yy",},"order":13,},
     {"id":{"name":"obj_key","path":"objects/obj_key/obj_key.yy",},"order":4,},
     {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},"order":12,},
     {"id":{"name":"spr_gateOpenOk","path":"sprites/spr_gateOpenOk/spr_gateOpenOk.yy",},"order":11,},
